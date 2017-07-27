@@ -1,0 +1,52 @@
+li {
+  display: inline;
+}
+body {
+  font-family: monospace;
+}
+h1 {
+  color: blue;
+  border: 2px solid red;
+  margin: 5px;
+}
+h2 {
+  color: red;
+  font-weight: bold;
+}
+p {
+  text-indent: 3cm;
+}
+ol {
+  list-style-type: upper-roman;
+  display: inline-block;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+<br>
+div {
+  display: inline;
+}
+div.red {
+  background: red;
+  width: 100px;
+  padding: 10px
+}
+div.green {
+  background: green;
+  width: 100px;
+  padding: 10px;
+}
+section {
+   border: 2px solid black;
+   width: 100px;
+}
+
+div {
+   position: relative;
+   height: 100px;
+   width: 100px;
+   top: 150px;
+   left: 300px;
+   background: green;
+}
