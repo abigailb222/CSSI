@@ -6,3 +6,12 @@ function Task1Done(amazingabigail)
   else
   	document.getElementById(amazingabigail).style.textDecoration='line-through';
 }
+
+function clearAll()
+{
+	names=document.getElementsByClassName("clearAll");
+	for(i=0; i<names.length; i++)
+	{
+		names[i].style.textDecoration = "none";
+	}
+}
