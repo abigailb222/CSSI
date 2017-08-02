@@ -3,6 +3,7 @@
 <head>
   <title>Bucket List</title>
   <link rel="stylesheet" type="text/css" href="liststyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="Bucket.js"></script>
 </head>
 <body>
@@ -12,22 +13,23 @@
     <h2>My to-do list</h2>
 
     <ol>
-      <li id="todo1" class="clearAll">Visit Google
+      <li id="todo1" class="task">Visitask
       <button onclick="Task1Done('todo1')">Done</button>
       </li>
-      <li id="todo2" class="clearAll">Graduate College
+      <li id="todo2" class="task">Graduate College
       <button onclick="Task1Done('todo2')">Done</button>
       </li>
-      <li id="todo3" class="clearAll">Get a house and car
+      <li id="todo3" class="task">Get a house and car
       <button onclick="Task1Done('todo3')">Done</button>
       </li>
-      <li id="todo4" class="clearAll">Travel the World
+      <li id="todo4" class="task">Travel the World
       <button onclick="Task1Done('todo4')">Done</button>
       </li>
-      <li id="todo5" class="clearAll">Get Married
+      <li id="todo5" class="task">Get Married
       <button onclick="Task1Done('todo5')">Done</button>
       </li>
      </ol>
      <button type="button" onclick="clearAll()">Clear All</button>
+     <button type="button" onclick="pop_up()">Add Item</button>
 </body>
 </html>

@@ -9,9 +9,18 @@ function Task1Done(amazingabigail)
 
 function clearAll()
 {
-	names=document.getElementsByClassName("clearAll");
-	for(i=0; i<names.length; i++)
+	names = $('.task');
+	names.css("textDecoration", "none");
+}
+
+function addListItem(text){
+  list = document.querySelector('ol');
+  item = document.createElement('li');
+  item.innerText = text;
+  list.appendChild(item);
+}
+	function pop_up()
 	{
-		names[i].style.textDecoration = "none";
-	}
+	var i = prompt("Enter an item to add to list");
+	addListItem (i);
 }
