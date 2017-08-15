@@ -16,6 +16,7 @@ class MainHandler(webapp2.RequestHandler):
         images = {
             'groot.png': '/groot.png',
             'favicon': '/favicon.ico',
+            'guy': 'https://blackgeoscientists.files.wordpress.com/2014/06/helloworld.jpg'
         }
         messages = {
             'good': 'Yeah it\'s a good day!',
@@ -31,6 +32,7 @@ class MainHandler(webapp2.RequestHandler):
         }
         template = jinja_environment.get_template(
             'html_newone/index.html')
+            logging.info(template)
         self.response.write(template.render(template_vars))
 
 ##def is_prime(n):
