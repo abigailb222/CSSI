@@ -20,15 +20,21 @@ ul:visited{
   color: transparent;
 }
 
-li{
+button{
   display:inline;
 }
 
 ul{
   display: block;
+  font-weight: bold;
 }
-body {
-  background-image: url("images.jpg");
+
+html {
+  background: url("jamaica_guide.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 h2 {
   color: black;
@@ -37,8 +43,13 @@ h2 {
   font-size: 32px;
 }
 h1 {
-  color: blue;
+  color: yellow;
   text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: left;
 }
 p {
   front-family: verdana;
@@ -52,9 +63,6 @@ li {
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 30px;
-}
-l2 {
-  padding: 10px 10px 10px 10px;
 }
 
 ol {
