@@ -44,26 +44,30 @@ html {
 }
 
 img {
+  display: inline-block;
   float: right;
   border-radius: 30px;
-  margin: 58px 10px;
+  margin: 25px 10px;
+  margin-right: 30px;
 }
 #profilepic{
   float: left;
   border-radius: 30px;
   margin: 40px 0 58px 10px;
+  margin-right: 30px;
 }
 
 ol li {
   display:block;
 }
 ol {
-  height: 650px;
+  height: 600px;
   background-color: #e0e2e5;
   padding: 10px 20px 5px 20px;
   margin: 0 20px 0 20px;
   border-radius: 5px;
 }
+
 h2 {
   padding: 10px 0 5px 10px;
 }
@@ -182,10 +186,7 @@ ul.comments-holder-ul li.comment-holder .comment-text{
   width:100px;
   height: 20px;
 }
-ul.comments-holder-ul li.comment-holder:hover .comments-buttons-holder
-{
-  display: block;
-}
+
 .comments-buttons-holder{
   display: none;
   list-style-type: none;
